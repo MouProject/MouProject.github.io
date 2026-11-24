@@ -1,6 +1,0 @@
-main() {
-    int[] scores = [12, 24, 36]
-    foreach (score in scores) {
-        print(score)
-    }
-}

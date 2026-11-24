@@ -1,7 +1,0 @@
-main() {
-    str item = "Book"
-    int quantity = 4
-    print("{}: {}") {
-        format(item, quantity)
-    }
-}

@@ -1,7 +1,0 @@
-main() {
-    str name = ""
-    print("Enter your name:") {
-        input(name)
-    }
-    print("Welcome,", name)
-}

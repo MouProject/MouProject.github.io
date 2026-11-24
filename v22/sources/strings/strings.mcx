@@ -1,5 +1,0 @@
-main() {
-    str word = "Moulang"
-    print(word + " rocks!")
-    print(word[0])
-}

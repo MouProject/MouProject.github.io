@@ -1,5 +1,0 @@
-main() {
-    int points = 12
-    var bonus = 8
-    print(points + bonus)
-}

@@ -1,5 +1,0 @@
-import "std:math" as m
-
-main() {
-    print(m.max(7, 12))
-}

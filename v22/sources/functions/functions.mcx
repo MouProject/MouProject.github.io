@@ -1,7 +1,0 @@
-int area(int width, int height) {
-    return width * height
-}
-
-main() {
-    print(area(7, 3))
-}

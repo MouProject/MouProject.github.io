@@ -1,0 +1,4 @@
+main() {
+    str? nickname = null
+    print(nickname ?? "Guest")
+}

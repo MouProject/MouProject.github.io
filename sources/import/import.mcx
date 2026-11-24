@@ -1,0 +1,5 @@
+import "std:math"
+
+main() {
+    print(math.sqrt(64.0))
+}

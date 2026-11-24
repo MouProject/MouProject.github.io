@@ -1,0 +1,7 @@
+main() {
+    int[] values = [5, 10, 15, 20]
+    var middle = values[1:3]
+    foreach (value in middle) {
+        print(value)
+    }
+}

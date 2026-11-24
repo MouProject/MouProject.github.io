@@ -1,0 +1,6 @@
+import "std:text"
+
+main() {
+    str message = "Hello, reader!"
+    print(text.replace(message, "reader", "Moulang"))
+}

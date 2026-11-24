@@ -1,0 +1,4 @@
+main() {
+    writeText("moulang-example.txt", "Hello from a file!")
+    print(readText("moulang-example.txt"))
+}

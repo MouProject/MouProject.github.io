@@ -1,0 +1,6 @@
+import "std:random"
+
+main() {
+    random.seed(42)
+    print(random.nextInt(1, 6))
+}

@@ -1,0 +1,6 @@
+main() {
+    str[] colors = ["Yellow", "Gray"]
+    foreach (color in colors) {
+        print(color)
+    }
+}

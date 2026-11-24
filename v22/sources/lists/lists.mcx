@@ -1,0 +1,6 @@
+main() {
+    int[] values = [2, 4]
+    values.append(6)
+    print(values)
+    print(len(values))
+}

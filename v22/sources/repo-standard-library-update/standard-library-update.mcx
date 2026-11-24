@@ -1,0 +1,16 @@
+import "std:math"
+
+main() {
+    int[] numbers = [10, 20, 30, 40, 50]
+
+    print("Absolute value", math.abs(-10))
+    print("ASCII character", char(65))
+    print("ASCII code", int("A"))
+    print("Real to integer", int(10.5))
+    print("Integer to real", float(10))
+    print("Number of items", len(numbers))
+    print("Maximum", math.max(numbers))
+    print("Minimum", math.min(numbers))
+    print("Sum", math.sum(numbers))
+    print("Contains 20", numbers.contains(20))
+}

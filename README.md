@@ -1,4 +1,4 @@
-# Moulang Website v22 — GitHub Pages release candidate
+# Moulang Website v23 — Copyright & Brand Update
 
 Extract the entire ZIP and open index.html. Static English website; no online compiler or server is required. Deploy the entire directory, including sources/ and assets/.
 
@@ -6,11 +6,21 @@ Extract the entire ZIP and open index.html. Static English website; no online co
 - Install, Get Started, Wiki and Examples: aligned with VS Code-based beginner instructions. The CLI remains part of the compiler but PowerShell direct execution and PATH tutorials are omitted.
 - All 28 example sources remain unchanged. Expected output is not a live execution.
 - Public preview 0.4.2; newer development syntax may differ. A compatible Windows compiler is required even with VS Code.
-- Official GitHub: https://github.com/MouProject/Mou
+- Official GitHub: https://github.com/mou-lang/Mou
 - Official X: https://x.com/MouProject
 - Temporary local Wiki remains until the separate Wiki repository and published URL are confirmed.
 - Screenshot privacy: recent projects, personal paths and account avatars are covered; public extension publisher KaichuTheFox and generic installation paths remain. No PowerShell screenshot included.
 
 No remote deployment or native compiler validation performed. See SOURCE_EXAMPLES.md for example provenance.
 
-GitHub Pages: upload all files and subdirectories to the root of MouProject.github.io; use Settings > Pages > Deploy from a branch > main > / (root). The .nojekyll file enables plain static hosting.
+GitHub Pages: upload all files and subdirectories to the root of mou-lang.github.io; use Settings > Pages > Deploy from a branch > main > / (root). The .nojekyll file enables plain static hosting.
+
+## v23 changes
+
+- Updated all compiler repository references and release API asset-path checks to mou-lang/Mou; kept X and VS Code extension IDs unchanged.
+- Added copyright.html and brand.html, linked from all page footers.
+- Mascot license notice verified; no new Tiki artwork or new logo license is published. Logo guidance is provisional.
+- Preserved local Wiki pending confirmation of a separate published URL.
+- Publish these files at the root of the existing mou-lang.github.io repository.
+
+Validation: 326 local href/src references (including anchors) and 16 inline scripts passed static checks. All 28 source files and 6 screenshots are byte-identical to v22. Live API and browser execution were not validated: the browser blocked local navigation and the external API was unavailable to the checking tool. No changes have been pushed to GitHub.
